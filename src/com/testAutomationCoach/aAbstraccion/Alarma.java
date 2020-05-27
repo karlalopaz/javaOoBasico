@@ -3,27 +3,37 @@ package com.testAutomationCoach.aAbstraccion;
 public class Alarma {
 
     //atributo:
-    int horaAlarma;
-    int minutosAlarma;
-    int segundosAlarma;
+    String horaAlarma;
+    //int minutosAlarma;
+    //int segundosAlarma;
     int numDia;
     int numMes;
-    int horaReloj;
-    int minutosReloj;
-    int segundosReloj;
+    String horaReloj;
+    //int minutosReloj;
+    //int segundosReloj;
     int znoose;
 
     //Metodos
 
     public void setearFecha(int numDia, int numMes){
+        this.numDia = numDia;
+        this.numMes = numMes;
     }
 
-    public void setearHoraActual(int horaReloj, int minutosReloj, int segundosReloj){
+    public void setearHoraActual(String horaReloj){
+        this.horaReloj=horaReloj;
     }
 
-    public void setearAlarma(int horaAlarma, int minutosAlarma, int segundosAlarma){
+    public void setearAlarma(String horaAlarma){
+        this.horaAlarma = horaAlarma;
     }
 
     public void setearZnoose(int znoose){
+    }
+
+    public void suenaAlarma(){
+        if(horaAlarma.equals(horaReloj)){
+            System.out.println("Suena alarma!");
+        }
     }
 }
