@@ -1,6 +1,6 @@
-package com.testAutomationCoach.bVariables;
+//package com.testAutomationCoach.bVariables;
 
-import com.testAutomationCoach.aAbstraccion.Perro;
+/*import com.testAutomationCoach.aAbstraccion.Perro;
 
 public class DogArray {
     public static void main(String[] args) {
@@ -20,4 +20,4 @@ public class DogArray {
         perrera[0] = null;
 
     }
-}
+}*/

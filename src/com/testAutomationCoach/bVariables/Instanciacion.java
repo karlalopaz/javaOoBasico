@@ -1,9 +1,9 @@
-package com.testAutomationCoach.bVariables;
+//package com.testAutomationCoach.bVariables;
 
 import com.testAutomationCoach.aAbstraccion.Articulo;
 import com.testAutomationCoach.aAbstraccion.Perro;
 
-public class Instanciacion {
+/*public class Instanciacion {
 
     static Perro fido;
     static Articulo tablet;
@@ -23,4 +23,4 @@ public class Instanciacion {
         Articulo laptop = new Articulo();
         laptop.toString();
     }
-}
+}*/
