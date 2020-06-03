@@ -1,6 +1,6 @@
 package com.testAutomationCoach.eHerencia.animals;
 
-public class Tigre extends Animal {
+public class Tigre extends Canino {
 
     public void hacerRuido() {
         System.out.println("rugido de batalla");
